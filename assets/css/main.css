@@ -4687,3 +4687,17 @@ input, select, textarea {
 		}
 
 	}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+
+}
+.centeringminna {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60%;
+
+}
