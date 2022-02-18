@@ -4698,6 +4698,6 @@ input, select, textarea {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 60%;
+  width: 60%;
 
 }
