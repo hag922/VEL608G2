@@ -105,8 +105,8 @@
                                 
                                 <h3>Design</h3>
                                 <p>
-                                The group wanted to assemble the pot using only the methods we had learnt in this course, i.e. pressfits. The pot also required two "levels", one for the plant &amp; and dirt and another one for the water supply.
-                                Next up we had to design the flowerpot. For this purpose we decided to use <i>Fusion 360</i> like before. After some deliberating and some redesigns we finally landed on a design we were all happy with. Snapshots of the final design can be seen here below:</p>
+                                The group wanted to assemble the pot using only the methods we had learnt in this course, i.e. pressfits. The pot also required two "levels", one for the plant &amp;dirt and another one for the water supply. We then got to work on drawing the pot up in <i>Fusioon 360</i> whhich is a CAD software. After some deliberating, redesigns and a few cups of coffee the group ended up with a design everyone was happy with. Sincee we did not want to have to screw anything in place we decided it would be best to have many pressfits. We measured the height of the sides and divided by a number of integers until an integer was returned. For the sides this turned out to be 256/16 = 16, so the result was 16 "gaps" with a width of 16 mm. To fasten the bottom panel we opted for two 30mm gaps on each side, and for the middle we chose to make four protruding edges with a width of 75mm. On the bottom there are 4 18mmx18mm holes, which serve as the fasteners for the stand, which is put together with two simple slits in the middle. Lastly the holes which hold the lighting beams in place are 18mmx18mm.
+                                Snapshots of the final design can be seen here below:</p>
                                 <img src = "images/blomapottur2.png" class = "centeringminna"><br/>
                                 <h3>Milling</h3>
                                 <p>For the milling to work you first have to download an application, called <i>Vcarve</i>, and a link to the application can be found <a href="https://www.vectric.com/products/vcarve-pro" target ="_blank">here</a>. The application you can download for free is a trial version, but everything you'll need is included in that version.
@@ -123,16 +123,93 @@
                                 <img src = "images/toolpaths.PNG" class = "centeringminna"><br/>
                                 
                                 <h3>Assembly</h3>
-                                <p>After the milling was completed the only thing left to was to assemble the pot. However we noticed that the Shop bot had messed up for some unknown reason, maybe warping in the plate, but it milled the toolpath between holes in two of our sides, and the holes were in completely the wrong place on the other two. The rest of the components however fit very tightly together.</p>
+                                <p>After the milling was completed the only thing left to was to assemble the pot. However we noticed that the Shop bot had messed up for some unknown reason, maybe warping in the plate, but it milled the toolpath between holes in two of our sides, and the holes were in completely the wrong place on the other two. The rest of the components however fit very tightly together. After a short chat with our teacher we concluded that the most likely reason for the failure was that since the vectors were not connected together they most likely moved when they were being prepared for the Shop Bot. Since we are recourceful we decided to just make the correct holes ourselves, and trim what didn't fit together. The correct hole was first drilled with a 17mm Ø hole saw, and then used a file to achieve the square shape. The middle platform was then trimmed with a band saw to make it fit (since the holes for the platform were in the wrong place).
+                                </p>
+                                <h3>Process</h3>
+                                <p>Here you can find images and a short video showing the process of making the flower pot.</p>
                                 
-                                <section>
-                           
-                        </section>
-                         <article>
-                                    <ul class="actions special">
-										<li><a href="#" class="button">Go to top</a></li>
-                                    </ul>
-                                </article>
+                                <!-- myndaskrá -->
+                                <!-- Slideshow container -->
+                                <div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="images/shopbot.jpeg" class = "centeringminna"><br><br>
+    <div class="text"><b>The Shop Bot</b></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="images/shopbot2.jpeg" class = "centeringminna"><br><br>
+    <div class="text"><b>The Shop Bot</b></div>
+  </div>
+                                    <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="images/shopbot%20(2).jpg" class = "centeringminna"><br><br>
+    <div class="text"><b>The Shop Bot</b></div>
+  </div>
+                                    <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="images/shopbot%20(3).jpg" class = "centeringminna"><br><br>
+    <div class="text"><b>The original toolpaths</b></div>
+  </div>
+                                    <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="images/shopbot%20(4).jpg" class = "centeringminna"><br><br>
+    <div class="text"><b>The Shop Bot</b></div>
+  </div>
+                                    <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="images/shopbot%20(7).jpg" class = "centeringminna"><br><br>
+    <div class="text"><b>One of the sides</b></div>
+  </div>
+                                    <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="images/assembly%20(1).jpg" class = "centeringminna"><br><br>
+    <div class="text"><b>All the sides together</b> </div>
+  </div>
+                                    <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="images/assembly%20(2).jpg" class = "centeringminna"><br><br>
+    <div class="text"><b>The two wrong sides</b></div>
+  </div>
+                                    <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="images/assembly%20(3).jpg" class = "centeringminna"><br><br>
+    <div class="text"><b>The two wrong sides</b></div>
+  </div>
+
+<!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+  <div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+  <span class="dot" onclick="currentSlide(9)"></span>
+  </div>
+<br>
+                                <!-- myndaskrá -->
+<video class = "center" controls>
+<source src="images/shopbot_myndband.MOV" >
+</video>   
+<br>                       
+        <h3>The final product</h3>
+        <p>Finally after all the above was completed we had a great flowerpot on our hands. The group was happy with the results (even though the Shop bot messed up a little). The group also felt the experience of working with the milling machine and learning how to prepare files for milling was a valuable experience and all in all felt the assignment was a success. The assembled flower pot can be seen in the following picture:</p>
+        <img src = "images/toolpaths.PNG" class = "centeringminna"><br/>
+                                
+        <p>We'd lastly like to take the opportunity to thank our teacher for the semester and for his help in both his course and others.</p>
+</section>
+                         
                    
 
 					</div>
@@ -172,7 +249,7 @@
 							</section>
 							<section>
 								<h3>Email</h3>
-								<p><a href="#">hakongunnn99@gmail.com</a></p>
+								<p><a href="#">hakongunn99@gmail.com</a></p>
 							</section>
 							<section>
 								<h3>Social</h3>
